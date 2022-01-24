@@ -6,7 +6,7 @@
 
 header {
     text-align: center;
-    background: rgb(46, 46, 126);
+    background: #002A53;
     color: white;
     padding: 20px;
 }
@@ -21,25 +21,46 @@ hr {
     height: 6px;
     width: 90%;
     margin: 0 auto;
-    background-color: rgb(46, 46, 126);
+    background-color: #002A53;
 }
- main {
+main {
      margin: 8px;
  }
 
- legend {
-     /* display: flex; */
+legend {
      font-size: 1.5em;
      font-weight: 700;
+     margin: 20px auto;
  }
 
- .container {
+ .input-box {
      display: flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
+     flex-direction: column;
+ }
+
+#name, 
+#email,
+#tel,
+#address1,
+#address2,
+#address3,
+#zip {
+    padding: 20px;
+    background: #dcdcdc;
+    border: none;
+    border-radius: 5px;
 }
 
-form {
-    width: calc(50% - 20px);
+#zip {
+    width: 50%;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+    font-style: italic;
+    padding-left: calc(100% - 60px)
 }
 
