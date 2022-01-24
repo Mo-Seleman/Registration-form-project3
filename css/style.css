@@ -27,7 +27,7 @@ main {
      margin: 8px;
  }
 
-legend {
+legend, h2 {
      font-size: 1.5em;
      font-weight: 700;
      margin: 20px auto;
@@ -64,3 +64,18 @@ input::placeholder {
     padding-left: calc(100% - 60px)
 }
 
+.newsletterbuttons {
+    line-height: 1.6;
+}
+
+#html_news,
+#css_news,
+#javascript_news,
+#html,
+#plain_text {
+    margin-right: 5px;
+}
+
+p {
+    
+}
