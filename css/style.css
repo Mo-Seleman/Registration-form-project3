@@ -34,8 +34,7 @@ legend, h2 {
  }
 
  .input-box,
-#other_topics,
-.container {
+ #other_topics {
      display: flex;
      flex-direction: column;
  }
@@ -142,6 +141,11 @@ input:focus {
     .input-box {
         display: flex;
         flex-direction: row;
+    }
+
+    .input-box label, 
+    .input-box input {
+        flex-basis: 20%;
     }
 
 }
