@@ -33,7 +33,9 @@ legend, h2 {
      margin: 20px auto;
  }
 
- .input-box {
+ .input-box,
+#other_topics,
+.container {
      display: flex;
      flex-direction: column;
  }
@@ -43,12 +45,17 @@ legend, h2 {
 #tel,
 #address1,
 #address2,
-#address3,
-#zip {
+#state,
+#zip,
+#other_topics {
     padding: 20px;
     background: #dcdcdc;
     border: none;
     border-radius: 5px;
+}
+
+.cihover:hover {
+    border: 1px solid blue;
 }
 
 #zip {
@@ -74,8 +81,37 @@ input::placeholder {
 #html,
 #plain_text {
     margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.newsletter {
+    padding: 8px;
+}
+
+#p1 {
+    margin-bottom: 10px;
 }
 
 p {
-    
+    margin: 10px 0; 
+}
+
+#other_topics {
+    padding: 70px;
+}
+
+button {
+    padding: 30px;
+    border-radius: 5px;
+    background: #00CED1;
+    color: white;
+    font-size: 1.6rem;
+    border-style: none;
+    margin-top: 20px;
+}
+
+#footer {
+    text-align: center;
+    font-style: italic;
+    margin: 20px 0 40px 0;
 }
