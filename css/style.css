@@ -115,3 +115,7 @@ button {
     font-style: italic;
     margin: 20px 0 40px 0;
 }
+
+select {
+    margin-bottom: 20px;
+}
