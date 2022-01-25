@@ -17,6 +17,7 @@
         <h1>The Code Review</h1>
     </div>
 </header>
+<main>
     <section class="intro">
         <h2>Signup For Our Newsletter</h3>
         <p id="intro-p">Get the latest news on how your code is doing right in your inbox</p>
@@ -27,23 +28,23 @@
     <legend>Contact Information</legend>
     <div class="input-box">
         <label for="Name">Full Name</label>
-        <input type="text" name="user-name" id="name" placeholder="Required" class="cihover"><br>
+        <input required type="text" name="user-name" id="name" placeholder="Required" class="cihover"><br>
     </div>
     <div class="input-box">
         <label for="email-address">Email Address</label>
-        <input type="email" name="user-email-address" id="email" placeholder="Required" class="cihover"><br>
+        <input required type="email" name="user-email-address" id="email" placeholder="Required" class="cihover"><br>
     </div>  
     <div class="input-box">
         <label for="tel">Phone Number</label>
-        <input type="tel" name="user-tel" id="tel" class="cihover"><br>
+        <input type="tel" name="user-tel" id="tel" class="cihover" placeholder="(+44)"><br>
     </div>
         <div class="input-box">
         <label for="address1">Street Address</label>
-    <input type="text" name="user-address1" id="address1" class="cihover"><br>
+    <input type="text" name="user-address1" id="address1" class="cihover" placeholder="First Line"><br>
     </div>  
     <div class="input-box">
         <label for="address2">City</label>
-        <input type="text" name="user-address2" id="address2" class="cihover"><br>
+        <input type="text" name="user-address2" id="address2" class="cihover" placeholder="E.g MK"><br>
     </div>
 
     <div class="input-box">
@@ -89,6 +90,7 @@
 </section>
 </main>
 </body>
+</main>
 <footer>
     <p id="footer">Copyright The Code Review</p>
 </footer> 
