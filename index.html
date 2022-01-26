@@ -25,7 +25,8 @@
     <hr>
 <main>
 <form class="container">
-    <legend>Contact Information</legend>
+    <fieldset>
+    <legend class="title">Contact Information</legend><hr class="spacing">
     <div class="input-box">
         <label for="Name">Full Name</label>
         <input required type="text" name="user-name" id="name" placeholder="Required" class="cihover"><br>
@@ -61,12 +62,12 @@
         <label for="zip">Zip Code</label>
         <input type="text" name="user-zip" id="zip" class="cihover"><br>
     </div>
-</form>
+</fieldset>
 
 <hr>
 
-<section class="newsletter">
-    <h2>Newsletter</h2>
+    <fieldset class="newsletter">
+    <legend class="title">Newsletter</legend><hr class="spacing2">
     <p id="p1">Select the newsletter you would like to receive</p>
 
 <div class="newsletterbuttons">
@@ -87,7 +88,8 @@
 
     <button type="submit" value="sign_up">Sign Up</button>
 </div>
-</section>
+</fieldset>
+</form> 
 </main>
 </body>
 </main>

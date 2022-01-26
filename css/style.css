@@ -33,6 +33,18 @@ legend, h2 {
      margin: 20px auto;
  }
 
+ .title {
+     float: left; 
+ }
+ .spacing {
+     background-color: white;
+     border: none;
+ }
+ .spacing2 {
+     background-color: #F5F5DC;
+     border: none;
+ }
+
  .input-box,
  #other_topics {
      display: flex;
@@ -122,6 +134,11 @@ select {
 
 input:focus {
     background: red;
+}
+
+fieldset {
+    border: none;
+    margin-top: 20px;
 }
 
 @media (min-width: 768px) {
