@@ -27,15 +27,15 @@ main {
      margin: 8px;
  }
 
+ textarea, button {
+     width: 100%;
+ }
 legend, h2 {
      font-size: 1.5em;
      font-weight: 700;
-     margin: 20px auto;
+     margin: 20px 0;
  }
 
- .title {
-     float: left; 
- }
  .spacing {
      background-color: white;
      border: none;
@@ -49,6 +49,7 @@ legend, h2 {
  #other_topics {
      display: flex;
      flex-direction: column;
+     margin-bottom: 20px;
  }
 
 #name, 
@@ -152,17 +153,32 @@ fieldset {
 
     hr {
         max-width: 75%;
-        margin-top: 40px;
+    }
+
+    select {
+      margin-bottom: 0;
     }
 
     .input-box {
         display: flex;
         flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;
     }
 
-    .input-box label, 
-    .input-box input {
-        flex-basis: 20%;
+    .input-box label {
+        flex-basis: 30%;
     }
 
+    .input-box input,
+    .input-box select {
+        flex-basis: 70%;
+    }
+
+    #zip {
+        max-width: 25%;
+    }
+   header {
+       margin-bottom: 50px;
+   }
 }
