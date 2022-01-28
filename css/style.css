@@ -15,6 +15,7 @@ header {
     margin: 8px;
     text-align: center;
     line-height: 1.6;
+    margin-bottom: 30px;
 }
 
 hr {
@@ -79,12 +80,12 @@ label {
 }
 
 input::placeholder {
+    text-align: right;
     font-style: italic;
-    padding-left: calc(100% - 60px)
 }
 
-.newsletterbuttons {
-    line-height: 1.6;
+textarea::placeholder {
+    text-align: justify;
 }
 
 #html_news,
@@ -99,18 +100,15 @@ input::placeholder {
 .newsletter {
     padding: 8px;
     background: #F5F5DC;
+    line-height: 2.5;
 }
 
 #p1 {
     margin-bottom: 10px;
 }
 
-p {
-    margin: 10px 0; 
-}
-
 #other_topics {
-    padding: 70px;
+    padding: 15px 0 70px 15px;
 }
 
 button {
@@ -129,12 +127,24 @@ button {
     margin: 20px 0 40px 0;
 }
 
+input:focus,
 select {
-    margin-bottom: 20px;
+    transition: all .5s linear;
 }
 
-input:focus {
+input:focus,
+select:focus {
     background: red;
+    transform: scale(1.1);
+}
+
+textarea {
+    transition: all .5s linear;
+}
+
+textarea:focus {
+    background: red;
+    transform: scale(1.1);
 }
 
 fieldset {
@@ -142,6 +152,9 @@ fieldset {
     margin-top: 20px;
 }
 
+.title {
+    margin-bottom: 0;
+}
 @media (min-width: 768px) {
     legend {
         margin: 20px 0;
